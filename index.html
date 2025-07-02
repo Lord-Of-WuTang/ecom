@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS - Premium Electronics</title>
+    <link rel="stylesheet" href="ecommerce.css">
+</head>
+<body>
+    <div class="bg-particles" id="particles"></div>
+
+    <header>
+        <nav>
+            <div class="logo">NEXUS</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#cart" class="cart-icon">
+                🛒 Cart
+                <span class="cart-count" id="cartCount">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>EXPERIENCE THE FUTURE</h1>
+            <p>Discover premium electronics that redefine innovation and style</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">📱</div>
+                <h3 class="product-title">Quantum Phone Pro</h3>
+                <p class="product-price">$999</p>
+                <button class="add-to-cart" onclick="addToCart('Quantum Phone Pro', 999)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image">💻</div>
+                <h3 class="product-title">Nexus Laptop Elite</h3>
+                <p class="product-price">$1,299</p>
+                <button class="add-to-cart" onclick="addToCart('Nexus Laptop Elite', 1299)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image">🎧</div>
+                <h3 class="product-title">Wireless Headphones X</h3>
+                <p class="product-price">$299</p>
+                <button class="add-to-cart" onclick="addToCart('Wireless Headphones X', 299)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image">⌚</div>
+                <h3 class="product-title">Smart Watch Pro</h3>
+                <p class="product-price">$399</p>
+                <button class="add-to-cart" onclick="addToCart('Smart Watch Pro', 399)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image">📷</div>
+                <h3 class="product-title">4K Action Camera</h3>
+                <p class="product-price">$599</p>
+                <button class="add-to-cart" onclick="addToCart('4K Action Camera', 599)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image">🔊</div>
+                <h3 class="product-title">Bluetooth Speaker Max</h3>
+                <p class="product-price">$199</p>
+                <button class="add-to-cart" onclick="addToCart('Bluetooth Speaker Max', 199)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">Why Choose NEXUS?</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <div class="feature-icon">🚚</div>
+                <h3>Free Shipping</h3>
+                <p>Free delivery on all orders over $50</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🛡️</div>
+                <h3>2-Year Warranty</h3>
+                <p>Comprehensive protection for your purchase</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💬</div>
+                <h3>24/7 Support</h3>
+                <p>Round-the-clock customer assistance</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>Fast Processing</h3>
+                <p>Same-day processing for all orders</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#support">Support</a>
+                <a href="#about">About Us</a>
+            </div>
+            <p>&copy; 2025 NEXUS Electronics. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="ecom.js"></script>
+</body>
+</html>
